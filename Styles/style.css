@@ -1,57 +1,158 @@
-body{
-    max-width: 1600px;
+body {
+  max-width: 1600px;
 }
-main{
-    max-width: 1320px;
-    display: block;
-    margin: 50px auto;
+main {
+  max-width: 1320px;
+  display: block;
+  margin: 50px auto;
+}
+section {
+  margin: 120px 0px;
+}
+.banner {
+  display: flex;
+  background-image: url("/resources/Banner\ Image.png");
+  background-repeat: no-repeat;
+  border-radius: 16px;
+  /* background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%); */
+  /* background-position: right bottom,top left; */
+  /* opacity: 1.5; */
+  justify-content: center;
+  align-items: center;
+  height: 600px;
+  font-family: Merriweather;
+  color: #fff;
+  /* padding: 344px; */
+}
+.banner h3 {
+  font-size: 72px;
+  font-weight: 900;
+  text-align: center;
+}
+.banner span {
+  font-size: 32px;
 
+  font-weight: 400;
+  margin-bottom: 16px;
+}
+.discount-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: Inter;
+}
+
+.discount-container h2 {
+  color: #f00;
+  text-align: center;
+  font-size: 88px;
+  font-weight: 700;
+  margin-top: 0px;
+  margin-bottom: 48px;
+}
+.discount-container span {
+  color: #f00;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+.discount-container p {
+  color: #070211;
+  text-align: center;
+  font-size: 48px;
+  font-weight: 700;
+  margin-top: 0px;
+  margin-bottom: 48px;
+}
+.midnight {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-image: url("/resources/Vectorrr.png");
+  background-repeat: no-repeat;
+  height: 600px;
+  padding-left: 126px;
+  padding-right: 138px;
+}
+.midnight-party-container h1 {
+  color: #fff;
+  font-family: Merriweather;
+  font-size: 64px;
+  font-weight: 900;
+  letter-spacing: 7.04px;
+  margin-bottom: 24px;
+}
+
+.midnight-party-container p {
+  color: rgba(255, 255, 255, 0.8);
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px; /* 166.667% */
+  margin-bottom: 48px;
+}
+.join-button {
+  color: #fff;
+  border: none;
+  background-color: #f00;
+  border-radius: 7px;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-left: 32px;
+  margin-bottom: 70px;
+}
+.place {
+  background: linear-gradient(
+    180deg,
+    rgba(255, 0, 0, 0.1) 0%,
+    rgba(255, 0, 0, 0) 100%
+  );
+  border-radius: 10px;
+
+  height: 482px;
+  
+  text-align: center;
+  padding: 100px 385px;
 
 }
-section{
-    margin: 120px 0px;
+.place p{
+    color: #070211;
+font-family: Inter;
+font-size: 32px;
+font-style: normal;
+font-weight: 600;
+text-transform: capitalize;
 }
-.banner{
-    display: flex;
-    background-image: url("/resources/Banner\ Image.png");
-    background-repeat: no-repeat;
-    border-radius: 16px;
-    /* background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%); */
-    /* background-position: right bottom,top left; */
-    /* opacity: 1.5; */
-    justify-content: center;
-    align-items: center;
-    height: 600px;
-    font-family: Merriweather;
-    color: #FFF;
- /* padding: 344px; */
+.place span{
+    color: #F00;
+text-align: center;
+font-family: Inter;
+font-size: 32px;
+font-weight: 600;
+text-transform: capitalize;
+} 
+.place button{
+    border: none;
+    display: inline-flex;
+padding: 16px 32px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+color: #FFF;
+text-align: center;
 
-}
-.banner h3{
-    font-size: 72px;
-    font-weight: 900;
-    text-align: center;
-
-    
-
-}
-.banner span{
-    font-size: 32px;
-    
-    
-    font-weight: 400;
-    margin-bottom: 16px;
-   
-}
-.discount-container{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    font-family: Inter;
-
-}
-.midnight-party-container{
-    background-image: url("/resources/Vectorrr.png");
-    height: 600px;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-transform: uppercase;
+border-radius: 8px;
+background: #F00;
+margin-top: 48px;
 }
