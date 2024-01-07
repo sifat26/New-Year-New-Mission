@@ -3,5 +3,55 @@ body{
 }
 main{
     max-width: 1320px;
+    display: block;
+    margin: 50px auto;
 
+
+}
+section{
+    margin: 120px 0px;
+}
+.banner{
+    display: flex;
+    background-image: url("/resources/Banner\ Image.png");
+    background-repeat: no-repeat;
+    border-radius: 16px;
+    /* background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%); */
+    /* background-position: right bottom,top left; */
+    /* opacity: 1.5; */
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    font-family: Merriweather;
+    color: #FFF;
+ /* padding: 344px; */
+
+}
+.banner h3{
+    font-size: 72px;
+    font-weight: 900;
+    text-align: center;
+
+    
+
+}
+.banner span{
+    font-size: 32px;
+    
+    
+    font-weight: 400;
+    margin-bottom: 16px;
+   
+}
+.discount-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Inter;
+
+}
+.midnight-party-container{
+    background-image: url("/resources/Vectorrr.png");
+    height: 600px;
 }
