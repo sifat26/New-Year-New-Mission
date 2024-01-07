@@ -105,6 +105,7 @@ section {
   text-transform: uppercase;
   margin-left: 32px;
   margin-bottom: 70px;
+  padding: 10px 15px;
 }
 .place {
   background: linear-gradient(
@@ -155,4 +156,18 @@ text-transform: uppercase;
 border-radius: 8px;
 background: #F00;
 margin-top: 48px;
+}
+.comming-soon{
+    display: flex;
+    justify-content: space-evenly;
+}
+.offer-img{
+    border-radius: 463px;
+border: 15px solid #F00;
+padding: 49px;
+margin-left: 70px;
+margin-right: 118px;
+}
+.new-best-offer{
+
 }
