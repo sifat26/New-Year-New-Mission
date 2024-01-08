@@ -1,10 +1,20 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 body {
   max-width: 1600px;
+  margin: auto;
 }
-main {
+.main-section{
   max-width: 1320px;
   display: block;
   margin: 50px auto;
+}
+h3,h2,h1,p{
+  margin: 0px;
+  padding: 0;
 }
 section {
   margin: 120px 0px;
@@ -82,7 +92,6 @@ section {
   font-size: 64px;
   font-weight: 900;
   letter-spacing: 7.04px;
-  margin-bottom: 24px;
 }
 
 .midnight-party-container p {
@@ -91,7 +100,8 @@ section {
   font-size: 18px;
   font-weight: 400;
   line-height: 30px; /* 166.667% */
-  margin-bottom: 48px;
+  margin-top: 24px;
+  /* margin-bottom: 48px; */
 }
 .join-button {
   color: #fff;
@@ -104,7 +114,8 @@ section {
   font-weight: 700;
   text-transform: uppercase;
   margin-left: 32px;
-  margin-bottom: 70px;
+  /* margin-bottom: 70px; */
+  margin-top: 48px;
   padding: 10px 15px;
   cursor: pointer;
 }
@@ -117,6 +128,7 @@ section {
   border-radius: 10px;
 
   height: 482px;
+  line-height: 56px;
   
   text-align: center;
   padding: 100px 385px;
@@ -161,15 +173,177 @@ cursor: pointer;
 }
 .comming-soon{
     display: flex;
-    justify-content: space-evenly;
+     /* justify-content: space-between; */ 
+    /* align-items: center; */
 }
 .offer-img{
-    border-radius: 463px;
+    border-radius: 100%;
 border: 15px solid #F00;
 padding: 49px;
-margin-left: 70px;
-margin-right: 118px;
+/* margin-left: 70px;
+margin-right: 180px; */
 }
-.new-best-offer{
+.new-best-offer h3{
+  color: #F00;
+font-family: Inter;
+font-size: 20px;
+font-weight: 500;
+padding-top: 140px;
+padding-bottom: 16px;
+}
+.new-best-offer h2{
+  color: #070211;
+font-family: Merriweather;
+font-size: 48px;
+font-weight: 900;
+text-transform: capitalize;
+}
+.new-best-offer p{
+  color: rgba(7, 2, 17, 0.60);
+font-family: Inter;
+font-size: 20px;
+
+font-weight: 400;
+line-height: 32px;
+width: 393px;
+margin-right: 50px; /* 160% */
+ padding-top: 22px;
+/* padding-bottom: 104px; */ 
+}
+.new-year-2024 h1{
+  color: #F00;
+font-family: Inter;
+font-size: 48px;
+
+font-weight: 700;
+
+margin-top: 112px;
 
 }
+.new-year-2024 p{
+  color: rgba(7, 2, 17, 0.60);
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px; 
+width: 276px;/* 160% */
+margin-top: 16px;
+margin-bottom: 43px;
+
+}
+.new-year-2024{
+  margin-left: 100px;
+
+}
+
+/* .img-row{
+  display: inline-flexbox;
+  
+
+  
+  
+} */
+.portfolio img{
+  padding: 10px 20px 10px 0px;
+  width: 424px;
+height: 450px;
+
+
+}
+.portfolio img:hover{
+  transform: scale(1.025);
+  transition: 200ms ease-in-out;
+
+}
+.portfolio h3{
+  color: #F00;
+font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+}
+.portfolio h1{
+  color: #070211;
+font-family: Merriweather;
+font-size: 48px;
+font-weight: 900;
+text-transform: capitalize;
+padding-top: 16px;
+padding-bottom: 22px;
+}
+.portfolio p{
+  color: rgba(7, 2, 17, 0.60);
+font-family: Inter;
+font-size: 20px;
+font-weight: 400; 
+padding-bottom: 48px;/* 160% */
+
+}
+.subscribe{
+  border-radius: 16px;
+background: rgba(255, 0, 0, 0.05);
+text-align: center;
+
+height: 616px;
+
+
+}
+.subscribe img{
+  margin-top: 80px;
+}
+.subscribe h2{
+  color: #070211;
+font-family: Merriweather;
+font-size: 48px;
+font-weight: 900;
+text-transform: capitalize;
+padding-top: 40px;
+padding-bottom: 22px;
+}
+.subscribe p{
+  color: rgba(7, 2, 17, 0.60);
+font-family: Inter;
+font-size: 20px;
+font-weight: 400;
+padding-bottom: 48px;
+padding-left: 210px;
+padding-right: 210px;
+/* line-height: 32px;  */
+/* 160% */
+}
+.subscribe input{
+  border: 0px;
+  width: 648px;
+height: 72px;
+border-radius: 50px 0px 0px 50px;
+background: #F00;
+background: #FFF;
+
+}
+.subscribe button{
+  border: 0px;
+  border-radius: 0px 50px 50px 0px;
+background: #F00;
+width: 210px;
+height: 72px;
+
+
+}
+.subscribe input[type="email"]::placeholder{
+  cursor: pointer;
+
+padding-left: 30px;
+color: rgba(7, 2, 17, 0.30);
+font-family: Inter;
+font-size: 18px;
+font-weight: 400;
+}
+.subscribe button{
+  color: #FFF;
+text-align: center;
+font-family: Inter;
+font-size: 20px;
+font-weight: 600;
+text-transform: capitalize;
+}
+
