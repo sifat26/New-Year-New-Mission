@@ -347,27 +347,36 @@ font-weight: 600;
 text-transform: capitalize;
 }
 footer{
-
-
-  background: #070211;
   height: 609px;
+  background: #070211;
   color: #FFF;
 font-family: Inter;
 font-size: 24px;
 font-weight: 500;
 line-height: 40px; /* 166.667% */
 }
-.footerdiv{
-    max-width: 1320px;
+.mainfooter{
+  max-width: 1320px;
   display: block;
-  margin: 50px auto;
+  margin: 120px auto;
+
+}
+.footerdiv{
+
+  /* display: flex;
+  justify-content: space-between; */
+  /* margin: 50px auto; */
   /* padding: 120px 0px; */
   padding-top: 120px;
+  padding-bottom: 30px;
 
 }
 footer .contact{
   display: flex ;
   justify-content: space-between;
+}
+.contact p{
+  margin-bottom: 50px;
 }
 .call-img img{
   margin: -5px;
