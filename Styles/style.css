@@ -129,7 +129,7 @@ section {
 
   height: 482px;
   line-height: 56px;
-  
+
   text-align: center;
   padding: 100px 385px;
 
@@ -149,7 +149,7 @@ font-family: Inter;
 font-size: 32px;
 font-weight: 600;
 text-transform: capitalize;
-} 
+}
 .place button{
     border: none;
     display: inline-flex;
@@ -173,7 +173,7 @@ cursor: pointer;
 }
 .comming-soon{
     display: flex;
-     /* justify-content: space-between; */ 
+     /* justify-content: space-between; */
     /* align-items: center; */
 }
 .offer-img{
@@ -208,7 +208,7 @@ line-height: 32px;
 width: 393px;
 margin-right: 50px; /* 160% */
  padding-top: 22px;
-/* padding-bottom: 104px; */ 
+/* padding-bottom: 104px; */
 }
 .new-year-2024 h1{
   color: #F00;
@@ -226,7 +226,7 @@ font-family: Inter;
 font-size: 20px;
 font-style: normal;
 font-weight: 400;
-line-height: 32px; 
+line-height: 32px;
 width: 276px;/* 160% */
 margin-top: 16px;
 margin-bottom: 43px;
@@ -239,10 +239,10 @@ margin-bottom: 43px;
 
 /* .img-row{
   display: inline-flexbox;
-  
 
-  
-  
+
+
+
 } */
 .portfolio img{
   padding: 10px 20px 10px 0px;
@@ -275,7 +275,7 @@ padding-bottom: 22px;
   color: rgba(7, 2, 17, 0.60);
 font-family: Inter;
 font-size: 20px;
-font-weight: 400; 
+font-weight: 400;
 padding-bottom: 48px;/* 160% */
 
 }
@@ -346,4 +346,48 @@ font-size: 20px;
 font-weight: 600;
 text-transform: capitalize;
 }
+footer{
 
+
+  background: #070211;
+  height: 609px;
+  color: #FFF;
+font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+line-height: 40px; /* 166.667% */
+}
+.footerdiv{
+    max-width: 1320px;
+  display: block;
+  margin: 50px auto;
+  /* padding: 120px 0px; */
+  padding-top: 120px;
+
+}
+footer .contact{
+  display: flex ;
+  justify-content: space-between;
+}
+.call-img img{
+  margin: -5px;
+  padding-right: 5px;
+}
+hr{
+  border: 1px solid rgba(255, 255, 255, 0.15);
+}
+.contact-img{
+  display: block;
+  text-align: center;
+  margin: 48px 0px;
+}
+.contact-img img{
+  margin-left: 24px;
+}
+.copyright{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  color: #FFF;
+line-height: normal;
+}
