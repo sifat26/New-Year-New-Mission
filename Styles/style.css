@@ -70,7 +70,7 @@ section {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-image: url("/resources/Vectorrr.png");
+  background-image: url("../resources/Vectorrr.png");
   background-repeat: no-repeat;
   height: 600px;
   padding-left: 126px;
@@ -106,6 +106,7 @@ section {
   margin-left: 32px;
   margin-bottom: 70px;
   padding: 10px 15px;
+  cursor: pointer;
 }
 .place {
   background: linear-gradient(
@@ -156,6 +157,7 @@ text-transform: uppercase;
 border-radius: 8px;
 background: #F00;
 margin-top: 48px;
+cursor: pointer;
 }
 .comming-soon{
     display: flex;
